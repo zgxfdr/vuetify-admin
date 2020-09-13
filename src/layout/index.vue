@@ -27,13 +27,13 @@
       <div class="app-layout-main">
         <app-main />
       </div>
-    </div> 
-    <Footer/>
+    </div>
+    <!-- <Footer/> -->
   </v-app>
 </template>
 
 <script>
-import { AppMain, NavBar, SiderBar,Footer } from "./components";
+import { AppMain, NavBar, SiderBar } from "./components";
 export default {
   props: {
     source: String,
@@ -42,10 +42,8 @@ export default {
     AppMain,
     SiderBar,
     NavBar,
-    Footer
   },
-  data: () => ({ 
-  }),
+  data: () => ({}),
   created() {
     this.$vuetify.theme.dark = true;
   },

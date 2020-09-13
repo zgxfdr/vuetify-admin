@@ -12,9 +12,11 @@
     "js-cookie": "^2.2.1",
     "less": "^3.12.2",
     "less-loader": "^7.0.0",
+    "md5": "^2.3.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3",
-    "vuetify": "^2.3.10"
+    "vuetify": "^2.3.10",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

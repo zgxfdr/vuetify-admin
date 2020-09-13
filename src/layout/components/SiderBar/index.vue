@@ -3,7 +3,7 @@
     <v-list dense>
       <template v-for="item in $router.options.routes">
         <template v-for="(items,index) in item.children">
-          <v-list-item link  :key="index">
+          <v-list-item link :key="index" :to="items.path">
             <v-list-item-action>
               <v-icon>{{items.icon}}</v-icon>
             </v-list-item-action>
